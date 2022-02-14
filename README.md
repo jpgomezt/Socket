@@ -26,3 +26,10 @@ Arguments:
 - HOST: Target URL to make the request  [required] ex: www.columbia.edu
 - ASSET: Path inside server to find the asset  [required] ex: /~fdc/picture-of-something.jpg
 - [PORT]: Port in which the request is made  [default: 80]
+
+### References
+- https://realpython.com/python-sockets/
+- https://docs.python.org/3/howto/sockets.html
+- https://www.geeksforgeeks.org/socket-programming-python/
+- https://typer.tiangolo.com/
+- https://stackabuse.com/guide-to-parsing-html-with-beautifulsoup-in-python/
