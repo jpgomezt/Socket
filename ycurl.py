@@ -35,7 +35,7 @@ def main(host: str = typer.Argument(..., help="Target URL to make the request"),
         file.close()
         typer.echo('Document was saved under name: ' + doc_name)
     except Exception as exception:
-        raise typer.Exit(exception)
+        raise typer.Exit('There was a runtime error. Try again')
 
 if __name__ == "__main__":
     typer.run(main)

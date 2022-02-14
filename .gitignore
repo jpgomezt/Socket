@@ -154,3 +154,4 @@ cython_debug/
 *.html
 *.jpeg
 *.pdf
+.DS_Store
