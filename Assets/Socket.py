@@ -15,7 +15,7 @@ class Socket():
             self.host = host
             self.host_ip = socket.gethostbyname(host)
             self.my_socket.connect((self.host_ip, port))
-            print("The socket has successfully connected")
+            print("The socket has successfully connected\n\r")
         except socket.gaierror:
             print("There was an error resolving the host")
         except Exception as exception:
