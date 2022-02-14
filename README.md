@@ -23,6 +23,6 @@ You can run `--help` tag to find more about the app
 
 Usage: ycurl.py [OPTIONS] `HOST` `ASSET` `[PORT]`
 Arguments:
-- HOST    Target URL to make the request  [required]
-- ASSET   Path inside server to find the asset  [required]
-- [PORT]  Port in which the request is made  [default: 80]
+- HOST: Target URL to make the request  [required] ex: www.columbia.edu
+- ASSET: Path inside server to find the asset  [required] ex: /~fdc/picture-of-something.jpg
+- [PORT]: Port in which the request is made  [default: 80]
